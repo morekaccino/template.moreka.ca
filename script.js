@@ -1,5 +1,5 @@
 let particles = [];
-let frequency = 5;
+let frequency = 1;
 // Popolate particles
 setInterval(
     function () {
@@ -8,9 +8,9 @@ setInterval(
     frequency);
 
 
-let c1 = createCanvas({width: $(window).width(), height: $(window).height() / 3});
-let c2 = createCanvas({width: $(window).width(), height: $(window).height() / 3});
-let c3 = createCanvas({width: $(window).width(), height: $(window).height() / 3});
+let c1 = createCanvas({width: $('.container').width() + 30, height: $(window).height() / 3});
+let c2 = createCanvas({width: $('.container').width() + 30, height: $(window).height() / 3});
+let c3 = createCanvas({width: $('.container').width() + 30, height: $(window).height() / 3});
 
 let tela = c1.canvas;
 let canvas = c1.context;
@@ -126,16 +126,6 @@ function writeText(canvas, context, text) {
     }
 }
 
-function socialLinks(canvas, context, text) {
-    let size = 50;
-    context.font = size + 'px "Montserrat"';
-    context.fillStyle = "#000000";
-    // context.textAlign = "center";
-    // let lineheight = 10;
-    // context.fillText(text, canvas.width / 2, canvas.height - 15);
-    var img = document.getElementById('github');
-    context.drawImage(img, canvas.width / 2, canvas.height - 1000);
-}
 
 function maskCanvas() {
     c3.context.drawImage(c2.canvas, 0, 0, c2.canvas.width, c2.canvas.height);

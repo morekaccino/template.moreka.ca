@@ -1,5 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
 
-body{
-  background-color: #111111 !important;
+html, body {
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(150deg, #535353, #111111) !important;
+}
+
+
+i {
+    color: #626262;
+    font-size: 4em;
+}
+
+.kaggle:hover {
+    color: #37bae8;
+}
+
+.hackerrank:hover {
+    color: #1FAE50;
+}
+
+.linkedin:hover {
+    color: #0B65C3;
+}
+.github:hover {
+    color: #ffffff;
 }
