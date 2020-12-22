@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8ba8093-dedb-40a9-adbf-a1f856d0b93d" name="Default Changelist" comment="added socials">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a8ba8093-dedb-40a9-adbf-a1f856d0b93d" name="Default Changelist" comment="some sizing fixes">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <workItem from="1608592516145" duration="13138000" />
       <workItem from="1608606770259" duration="406000" />
       <workItem from="1608607260494" duration="1016000" />
-      <workItem from="1608648639780" duration="5788000" />
+      <workItem from="1608648639780" duration="5931000" />
     </task>
     <task id="LOCAL-00001" summary="trying to make the font work">
       <created>1608607828938</created>
@@ -87,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608653990322</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some sizing fixes">
+      <created>1608654468057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608654468057</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +116,7 @@
     <MESSAGE value="trying to make the font work 2" />
     <MESSAGE value="fixed the canvas font" />
     <MESSAGE value="added socials" />
-    <option name="LAST_COMMIT_MESSAGE" value="added socials" />
+    <MESSAGE value="some sizing fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some sizing fixes" />
   </component>
 </project>
