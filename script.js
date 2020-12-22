@@ -16,10 +16,25 @@ let tela = c1.canvas;
 let canvas = c1.context;
 
 
+document.addEventListener("DOMContentLoaded", theDomHasLoaded, false);
+window.addEventListener("load", pageFullyLoaded, false);
+
+function theDomHasLoaded(e) {
+    // do something
+}
+
+function pageFullyLoaded(e) {
+    init();
+    update();
+}
+
+
+function init() {
 // $("body").append(tela);
-$("#canvas").append(c3.canvas);
-writeText(c2.canvas, c2.context, "MOREKA\n\nKAZEMI");
+    $("#canvas").append(c3.canvas);
+    writeText(c2.canvas, c2.context, "MOREKA\n\nKAZEMI");
 // socialLinks(c2.canvas, c2.context, "this a test")
+}
 
 var primeColor = ["#f6abb6", "#cb2e64", "#22c1c3", "#ff5e62", "#E100FF", "#C6426E", "#0f9b0f", "#34e89e"];
 var secColor = ["#011f4b", "#051e3e", "#fdbb2d", "#ff9966", "#7F00FF", "#642B73", "#000000", "#0f3443"];
@@ -95,13 +110,12 @@ function writeText(canvas, context, text) {
     if (canvas.width < 500) {
         size = 7;
         lineheight = 35
-    }
-    else if (canvas.width > 500 && canvas.width < 750){
+    } else if (canvas.width > 500 && canvas.width < 750) {
         size = 10.5;
         lineheight = 45;
     }
 
-    context.font = size + 'em "Arial Black"';
+    context.font = size + 'em "Montserrat"';
     context.fillStyle = "#000000";
     context.textAlign = "center";
 
@@ -114,7 +128,7 @@ function writeText(canvas, context, text) {
 
 function socialLinks(canvas, context, text) {
     let size = 50;
-    context.font = size + 'px "Arial Black"';
+    context.font = size + 'px "Montserrat"';
     context.fillStyle = "#000000";
     // context.textAlign = "center";
     // let lineheight = 10;
@@ -170,4 +184,4 @@ function update() {
     requestAnimationFrame(update.bind(this));
 }
 
-update();
+// update();

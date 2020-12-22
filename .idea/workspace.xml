@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8ba8093-dedb-40a9-adbf-a1f856d0b93d" name="Default Changelist" comment="trying to make the font work">
+    <list default="true" id="a8ba8093-dedb-40a9-adbf-a1f856d0b93d" name="Default Changelist" comment="trying to make the font work 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,8 @@
       <updated>1608592514858</updated>
       <workItem from="1608592516145" duration="13138000" />
       <workItem from="1608606770259" duration="406000" />
-      <workItem from="1608607260494" duration="839000" />
+      <workItem from="1608607260494" duration="1016000" />
+      <workItem from="1608648639780" duration="1221000" />
     </task>
     <task id="LOCAL-00001" summary="trying to make the font work">
       <created>1608607828938</created>
@@ -65,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608607828938</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="trying to make the font work 2">
+      <created>1608608142233</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608608142233</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,9 +90,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="trying to make the font work" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to make the font work" />
+    <MESSAGE value="trying to make the font work 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to make the font work 2" />
   </component>
 </project>
